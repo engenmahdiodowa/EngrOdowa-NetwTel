@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Join Odowa Telegram Network and explore our main channel and active group chats. Stay connected with thousands of members."
+    />
+    <title>Odowa Telegram Network</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- QRCode.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/build/qrcode.min.js"></script>
+
+    <!-- Your script -->
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>📢 Odowa Telegram Network</h1>
+      <p>Explore our main channel and all associated group chats</p>
+      <button id="toggleThemeBtn" aria-label="Toggle dark mode">
+        🌙 Dark Mode
+      </button>
+    </header>
+
+    <main>
+      <!-- Category Filters -->
+      <section class="category-filters" aria-label="Filter groups by category">
+        <button class="filter-btn active" data-category="All">All</button>
+        <button class="filter-btn" data-category="General">General</button>
+        <button class="filter-btn" data-category="Tech">Tech</button>
+        <button class="filter-btn" data-category="Crypto">Crypto</button>
+        <button class="filter-btn" data-category="Engineering">
+          Engineering
+        </button>
+        <button class="filter-btn" data-category="Finance">Finance</button>
+        <button class="filter-btn" data-category="Books">Books</button>
+        <button class="filter-btn" data-category="Graphic Design">
+          Graphic Design
+        </button>
+      </section>
+
+      <!-- Search Bar -->
+      <section class="search-bar">
+        <input
+          type="search"
+          id="groupSearch"
+          placeholder="Search groups..."
+          aria-label="Search Telegram groups"
+          autocomplete="off"
+        />
+      </section>
+
+      <!-- Groups container -->
+      <section
+        class="groups"
+        id="groupsContainer"
+        aria-live="polite"
+        aria-busy="true"
+      >
+        <p class="loading">Loading groups...</p>
+      </section>
+
+      <!-- Stats sidebar -->
+      <aside class="stats" aria-label="Community statistics">
+        <h2>📊 Community Stats</h2>
+        <ul>
+          <li>Total Groups: <span id="totalGroups">0</span></li>
+          <li>Total Members: <span id="totalMembers">0</span></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Odowa Community. Built with ❤️</p>
+    </footer>
+  </body>
+</html>

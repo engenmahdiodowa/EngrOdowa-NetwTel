@@ -1,0 +1,24 @@
+project:
+  name: EngrOdowa-NetwTel
+  owner: engenmahdiodowa
+  email: engenmahdiodowa@gmail.com
+  description: >
+    A modern Telegram landing page showcasing various groups in engineering,
+    crypto, design, finance, and more.
+
+groups:
+  - name: Engineering Talks
+    category: Engineering
+    link: https://t.me/engineeringtalks
+
+  - name: Crypto Signals
+    category: Crypto
+    link: https://t.me/cryptosignalsodowa
+
+  - name: Graphic Design Hub
+    category: Design
+    link: https://t.me/designodowa
+
+  - name: Finance & Investment
+    category: Finance
+    link: https://t.me/financeodowa
