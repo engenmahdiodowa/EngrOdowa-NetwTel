@@ -21,10 +21,9 @@ Welcome to the official repository for **EngrOdowa-NetwTel**, a modern, responsi
 ## 🛠️ Built With
 
 - HTML5 + CSS3 + JavaScript (Vanilla)
-- Telegram Bot API *(for future member stats integration)*
+- Telegram Bot API _(for future member stats integration)_
 - Hosted on **GitHub Pages**
 
 ---
 
 ## 📂 Project Structure
-

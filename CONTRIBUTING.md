@@ -7,7 +7,9 @@
 ## 📌 How to Contribute
 
 ### 🛠 Fix a Bug or Add a Feature
+
 1. **Fork** the repository.
 2. **Clone** your fork locally:
    ```bash
    git clone https://github.com/engenmahdiodowa/EngrOdowa-NetwTel.git
+   ```
